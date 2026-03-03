@@ -1,0 +1,21 @@
+h4{
+    /* color chartreuse; */
+     font-size:25px ;
+     /* text-align: center; */
+}
+
+#firstparagraph{
+    font-size: 31px;
+}
+
+.secondparagraph{
+    font-size: 18px;
+}
+
+*{
+    border:1px solid red;
+}
+
+p,h4{
+    color:beige;
+}
