@@ -1,0 +1,97 @@
+#first {
+    background-color: bisque;
+    background-image: url("./F1.jpg");
+    background-repeat: no-repeat; /*repeat,repeat-x,repeat-y*/
+    background-position:  center; /*100px 50px center top*/
+    background-size: cover; /*contain,90% 90%*/
+    background-attachment: fixed; /*to make the background-image fix*/
+    height: 300px;
+    width: 900px;
+    color: white;
+}
+#second{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(pink, yellow);
+    /* background; linear-gradient(to right, pink, yellow); */
+    /* background; linear-gradient(to bottom right, pink, yellow); */
+    /* background; linear-gradient( pink, yellow, green, orange); */
+    /* background; linear-gradient(aqua, green, violet); */
+
+}
+#third {
+  height: 300px;
+  width: 300px;
+  background: radial-gradient(violet, yellow, red);
+  background: radial-gradient(violet 5%, yellow 20%, pink 65%);
+  margin-top: 20px;
+  
+}
+
+/* The animation code */
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+/* The element to apply the animation to */
+#fourth {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes example2 {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+/* The element to apply the animation to */
+#five {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  animation-name: example2;
+  animation-duration: 4s;
+  margin-top: 30px;
+}
+
+@keyframes changebgcolor {
+  0% {
+    background-color: burlywood;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: aquamarine;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+#animation {
+  height: 400px;
+  width: 400px;
+  animation-duration: 4s;
+  animation-name: changebgcolor;
+  background-color: chocolate;
+}
