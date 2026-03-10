@@ -1,0 +1,57 @@
+
+.typography{
+    font-family:"lucida sans", "lucida sans regular", "lucida grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #928787;
+  font-weight: lighter;
+}
+
+.a,
+.b,
+.c {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.a {
+  transform: rotate(20deg);
+}
+
+/* .a {
+  transform: rotateX(180deg);
+} */
+
+/* .a {
+  transform: rotateY(180deg);
+} */
+
+.b {
+  transform: skewY(20deg);
+}
+
+.c {
+  transform: scaleY(1.5);
+}
+
+.textdec {
+  text-decoration: overline; /*underline,line-through*/
+  text-transform: capitalize;
+}
+
+.shadow {
+  text-shadow: 2px 2px 2px brown; /* x y blur color*/
+}
+
+.indent {
+  text-indent: 50px;
+}
+.boxshadow {
+  height: 200px;
+  width: 200px;
+  box-shadow: 2px 2px 5px red; /*x y blur color*/
+}
