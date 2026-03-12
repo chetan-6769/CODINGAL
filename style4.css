@@ -1,0 +1,40 @@
+input[type="text"] {
+  border: 2px solid red;
+}
+
+/* ul > li {
+  color: blueviolet;
+} */
+
+
+.parent > p {
+    color: red;
+}
+
+
+h1 + p {
+  background-color: chocolate;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+li:nth-child(2) {
+  background-color: yellow;
+}
+div:not(.class1) {
+  border: 2px dashed red;
+}
+.decorated::before {
+  content: "Smile😁";
+  color: blue;
+}
+.decorated::after {
+  content: "🤩";
+  color: blue;
+}
+p::first-letter {
+  font-size: 32px;
+  color: greenyellow;
+}
