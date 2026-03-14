@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css"  />
+</head>
+<body>
+    <input type="text" placeholder="username" />
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+    </ul>
+    <div class="parent">
+      <p>This is a direct child.</p>
+      <span>
+        <p>This is NOT a direct child.</p>
+      </span>
+    </div>
+
+    <h1>hello students</h1>
+    <p>nigesh</p>
+    <p>sudeep</p>
+    <a href="#">click me</a>
+    <div class="class1">Div 1</div>
+    <div class="class2">Div 2</div>
+    <div class="decorated class1">content</div>
+</body>
+</html>
