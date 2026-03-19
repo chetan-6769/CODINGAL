@@ -1,0 +1,46 @@
+.static{
+    position: static;
+    border: 1px solid salmon;
+}
+
+.relative{
+    position: relative;
+    left: 30px;
+    border: 2px solid green;
+}
+
+.fixed{
+    position: fixed;
+    right:0px ;
+    bottom: 0px;
+    background-color: 2px solid green;
+}
+
+.parent{
+    position: relative;
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+}
+
+.child{
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sticky{
+      position: sticky;
+    top: 10px;
+    border: 2px solid red;
+    background-color: beige;
+    margin-top: 20px;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+

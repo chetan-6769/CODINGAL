@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Red Bull Racing | F1 Domination</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #000814, #001d3d);
+            color: white;
+        }
+
+        header {
+            background: #000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid red;
+        }
+
+        header h1 {
+            font-size: 45px;
+            color: #ffcc00;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            color: #ccc;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #111;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: red;
+            transform: scale(1.1);
+        }
+
+        .hero {
+            height: 100vh;
+            background: url('https://images.unsplash.com/photo-1549921296-3a6b9e3b06df') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero h2 {
+            font-size: 60px;
+            background: rgba(0,0,0,0.7);
+            padding: 20px 40px;
+            border-radius: 15px;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { box-shadow: 0 0 10px red; }
+            to { box-shadow: 0 0 25px yellow; }
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 35px;
+            color: #ffcc00;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: #111;
+            padding: 25px;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 0 20px red;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            margin: 20px;
+            font-size: 25px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: red;
+            border: none;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: yellow;
+            color: black;
+        }
+
+        footer {
+            background: black;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏎️ RED BULL RACING</h1>
+    <p>Speed | Power | Domination</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#drivers">Drivers</a>
+    <a href="#stats">Stats</a>
+    <a href="#car">Car</a>
+</nav>
+
+<div class="hero">
+    <h2>UNLEASH THE BEAST 🔥</h2>
+</div>
+
+<section id="about">
+    <h2>About the Team</h2>
+    <p>
+        Red Bull Racing is not just a team — it's a FORCE in Formula 1.
+        With aggressive strategies, insane engineering, and fearless drivers,
+        they dominate the grid and push limits every race weekend.
+    </p>
+</section>
+
+<section id="drivers">
+    <h2>Elite Drivers</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Max Verstappen 🏆</h3>
+            <p>Multi-time World Champion. Pure aggression. Pure skill.</p>
+        </div>
+
+        <div class="card">
+            <h3>Sergio Perez 🇲🇽</h3>
+            <p>The tire master. Strategic genius on track.</p>
+        </div>
+    </div>
+</section>
+
+<section id="stats">
+    <h2>Dominance Stats</h2>
+
+    <div class="stats">
+        <div class="stat">🏆 Championships: 6+</div>
+        <div class="stat">🚀 Race Wins: 100+</div>
+        <div class="stat">⚡ Pole Positions: 90+</div>
+    </div>
+</section>
+
+<section id="car">
+    <h2>The RB Machine</h2>
+    <p>
+        Built for speed, engineered for dominance.
+        The RB cars are aerodynamic monsters that destroy competition.
+    </p>
+
+    <br>
+
+    <button onclick="engineSound()">Start Engine 🔊</button>
+</section>
+
+<footer>
+    <p>© 2026 Red Bull Racing Fan Page | Built for Speed ⚡</p>
+</footer>
+
+<script>
+    function engineSound() {
+        alert("VROOOOM!!! 🏎️💨 Red Bull Power Activated!");
+    }
+</script>
+
+</body>
+</html>
