@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style>
+      .border {
+        border-width: 5px !important; /* make border very thick */
+      }
+      /* 
+ bg-primary → blue background
+
+bg-success → green background
+
+bg-danger → red background
+
+bg-dark → black background
+
+text-white, text-dark, etc. → change text color */
+    </style>
+  </head>
+  <body>
+    <div class="container bg-primary text-white border border-danger">
+      <h2>.container (fixed width)</h2>
+      <p>This box stays in the middle, with empty space on the sides.</p>
+    </div>
+    <div class="container-fluid bg-success text-white">
+      <h2>.container-fluid (full width)</h2>
+      <p>This box always stretches across the whole screen.</p>
+    </div>
+  </body>
+</html>
